@@ -34,9 +34,11 @@ button {
   background-color: #4b79a1;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   cursor: pointer;
 }
+
+
 
 h1 {
   margin: 30px;
