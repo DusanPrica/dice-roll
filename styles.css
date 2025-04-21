@@ -2,16 +2,41 @@
   width: 70%;
   margin: auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dice-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .dice {
-  text-align: center;
-  display: inline-block;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 body {
   background: linear-gradient(to right, #2c3e50, #4b79a1);
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  margin: 20px;
+  width: 200px;
+  background-color: #4b79a1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 h1 {
